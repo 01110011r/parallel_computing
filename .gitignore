@@ -1,1 +1,61 @@
-.idea
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries and Shared Objects
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables & Output binaries
+*.exe
+*.out
+*.app
+/cpu
+/gpu
+/main
+/vector_add
+/matrix_add
+/cpu_matmul
+/gpu_matmul
+/cpu_primitives
+/blur
+/*_benchmark
+/*_runner
+test_*
+
+# CUDA Intermediate & Compiled Artifacts
+*.ptx
+*.cubin
+*.fatbin
+*.d
+
+# Build directories & CMake artifacts
+build/
+bin/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+.cmake/
+compile_commands.json
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
